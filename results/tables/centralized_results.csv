@@ -1,0 +1,5 @@
+model,features,accuracy,precision,recall,f1,f1_negative,f1_neutral,f1_positive,best_param,val_macro_f1,train_seconds
+Linear SVM,TF-IDF,0.9242,0.9253,0.9242,0.9239,0.9268,0.9067,0.9382,C=0.1,0.928,2.13
+Logistic Regression,TF-IDF,0.9231,0.9241,0.9231,0.9228,0.9251,0.9054,0.9379,C=0.5,0.927,2.36
+SGD Logistic Regression (FL reference),Hashing,0.9223,0.9231,0.9223,0.922,0.9238,0.9041,0.9382,alpha=1e-05,0.9243,0.63
+Naive Bayes,TF-IDF,0.9216,0.9226,0.9216,0.9213,0.9257,0.9039,0.9343,alpha=0.1,0.9258,0.12

@@ -1,0 +1,64 @@
+{
+  "best_model": "Linear SVM",
+  "best_test_accuracy": 0.9242,
+  "best_test_macro_f1": 0.9239,
+  "fl_reference_model": "SGD Logistic Regression (FL reference)",
+  "fl_reference_macro_f1": 0.922,
+  "sgd_params": {
+    "loss": "log_loss",
+    "alpha": 1e-06,
+    "learning_rate": "optimal",
+    "random_state": 42
+  },
+  "sgd_epochs": 5,
+  "best_confusion_matrix": [
+    [
+      3190,
+      102,
+      41
+    ],
+    [
+      241,
+      2902,
+      190
+    ],
+    [
+      120,
+      64,
+      3150
+    ]
+  ],
+  "best_classification_report": {
+    "negative": {
+      "precision": 0.898338496198254,
+      "recall": 0.9570957095709571,
+      "f1-score": 0.926786751888437,
+      "support": 3333.0
+    },
+    "neutral": {
+      "precision": 0.9458930899608866,
+      "recall": 0.8706870687068707,
+      "f1-score": 0.906733322918294,
+      "support": 3333.0
+    },
+    "positive": {
+      "precision": 0.9316770186335404,
+      "recall": 0.9448110377924415,
+      "f1-score": 0.9381980640357409,
+      "support": 3334.0
+    },
+    "accuracy": 0.9242,
+    "macro avg": {
+      "precision": 0.925302868264227,
+      "recall": 0.9241979386900899,
+      "f1-score": 0.9239060462808241,
+      "support": 10000.0
+    },
+    "weighted avg": {
+      "precision": 0.925303505679264,
+      "recall": 0.9242,
+      "f1-score": 0.9239074754825993,
+      "support": 10000.0
+    }
+  }
+}

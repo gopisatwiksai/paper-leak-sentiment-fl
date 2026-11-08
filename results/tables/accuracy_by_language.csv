@@ -1,0 +1,17 @@
+model,language,comments,accuracy
+Centralized,en,6998,0.9188
+Centralized,hi,185,0.9622
+Centralized,hinglish,2790,0.9287
+Centralized,te-en,27,0.963
+FedAvg,en,6998,0.9141
+FedAvg,hi,185,0.9622
+FedAvg,hinglish,2790,0.928
+FedAvg,te-en,27,0.963
+Local only – YouTube,en,6998,0.9034
+Local only – YouTube,hi,185,0.9514
+Local only – YouTube,hinglish,2790,0.928
+Local only – YouTube,te-en,27,0.963
+Local only – NewsPortal,en,6998,0.9027
+Local only – NewsPortal,hi,185,0.9622
+Local only – NewsPortal,hinglish,2790,0.852
+Local only – NewsPortal,te-en,27,0.9259

@@ -1,0 +1,53 @@
+{
+  "rows_after_cleaning": 100002,
+  "split_sizes": {
+    "train": 80002,
+    "val": 10000,
+    "test": 10000
+  },
+  "label_by_split": {
+    "test": {
+      "negative": 3333,
+      "neutral": 3333,
+      "positive": 3334
+    },
+    "train": {
+      "negative": 26668,
+      "neutral": 26667,
+      "positive": 26667
+    },
+    "val": {
+      "negative": 3333,
+      "neutral": 3334,
+      "positive": 3333
+    }
+  },
+  "platform_by_split": {
+    "test": {
+      "Instagram": 1980,
+      "NewsPortal": 1608,
+      "Reddit": 1648,
+      "X": 2691,
+      "YouTube": 2073
+    },
+    "train": {
+      "Instagram": 15465,
+      "NewsPortal": 12692,
+      "Reddit": 13347,
+      "X": 20846,
+      "YouTube": 17652
+    },
+    "val": {
+      "Instagram": 1943,
+      "NewsPortal": 1626,
+      "Reddit": 1670,
+      "X": 2530,
+      "YouTube": 2231
+    }
+  },
+  "texts_shared_by_train_and_test": 0,
+  "avg_tokens_before": 12.16,
+  "avg_tokens_after": 10.37,
+  "tfidf_vocabulary_size": 31708,
+  "hashing_feature_size": 262144
+}

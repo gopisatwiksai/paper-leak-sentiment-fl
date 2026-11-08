@@ -1,0 +1,14 @@
+{
+  "non_iid_clients": [
+    "YouTube",
+    "X",
+    "Instagram",
+    "Reddit",
+    "NewsPortal"
+  ],
+  "iid_clients": 5,
+  "train_rows": 80002,
+  "val_rows": 10000,
+  "mean_js_non_iid": 0.013,
+  "mean_js_iid": 0.0
+}

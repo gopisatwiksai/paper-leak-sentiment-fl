@@ -1,0 +1,10 @@
+method,accuracy_mean,accuracy_std,precision,recall,macro_f1_mean,macro_f1_std
+Centralized (pooled data),0.9225,0.0002,0.9235,0.9225,0.9222,0.0001
+FedAvg – platform clients (non-IID),0.9194,0.0003,0.9203,0.9194,0.9191,0.0003
+FedAvg – random clients (IID),0.92,0.0001,0.9209,0.92,0.9197,0.0001
+Local only – YouTube,0.9112,0.0003,0.913,0.9112,0.9108,0.0003
+Local only – X,0.9146,0.0004,0.9155,0.9146,0.9143,0.0004
+Local only – Instagram,0.9079,0.0002,0.9099,0.9079,0.9074,0.0002
+Local only – Reddit,0.9042,0.0005,0.9044,0.9042,0.904,0.0005
+Local only – NewsPortal,0.887,0.0044,0.887,0.887,0.8869,0.0045
+Local only – average of 5 platforms,0.905,0.0009,0.906,0.905,0.9047,0.0009

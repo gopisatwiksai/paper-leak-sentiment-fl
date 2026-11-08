@@ -1,0 +1,29 @@
+{
+  "config": {
+    "rounds": 40,
+    "local_epochs": 2,
+    "batch_size": 64,
+    "lr": 1.2,
+    "lr_decay": 0.05,
+    "l2": 1e-06,
+    "mu": 0.0,
+    "dp_clip": 0.0,
+    "dp_noise": 0.0,
+    "seed": 42
+  },
+  "clients": {
+    "YouTube": 17652,
+    "X": 20846,
+    "Instagram": 15465,
+    "Reddit": 13347,
+    "NewsPortal": 12692
+  },
+  "fedavg_test_accuracy": 0.919,
+  "fedavg_test_macro_f1": 0.9187,
+  "centralized_test_accuracy": 0.9225,
+  "centralized_test_macro_f1": 0.9222,
+  "gap_percentage_points": 0.35,
+  "model_size_mb": 3.15,
+  "total_uploaded_mb": 629.1,
+  "raw_comments_shared": 0
+}

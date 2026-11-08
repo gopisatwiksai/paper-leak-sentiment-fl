@@ -1,0 +1,171 @@
+{
+  "seeds": [
+    42,
+    7,
+    2026
+  ],
+  "main": [
+    {
+      "method": "Centralized (pooled data)",
+      "accuracy_mean": 0.9225,
+      "accuracy_std": 0.0002,
+      "precision": 0.9235,
+      "recall": 0.9225,
+      "macro_f1_mean": 0.9222,
+      "macro_f1_std": 0.0001
+    },
+    {
+      "method": "FedAvg \u2013 platform clients (non-IID)",
+      "accuracy_mean": 0.9194,
+      "accuracy_std": 0.0003,
+      "precision": 0.9203,
+      "recall": 0.9194,
+      "macro_f1_mean": 0.9191,
+      "macro_f1_std": 0.0003
+    },
+    {
+      "method": "FedAvg \u2013 random clients (IID)",
+      "accuracy_mean": 0.92,
+      "accuracy_std": 0.0001,
+      "precision": 0.9209,
+      "recall": 0.92,
+      "macro_f1_mean": 0.9197,
+      "macro_f1_std": 0.0001
+    },
+    {
+      "method": "Local only \u2013 YouTube",
+      "accuracy_mean": 0.9112,
+      "accuracy_std": 0.0003,
+      "precision": 0.913,
+      "recall": 0.9112,
+      "macro_f1_mean": 0.9108,
+      "macro_f1_std": 0.0003
+    },
+    {
+      "method": "Local only \u2013 X",
+      "accuracy_mean": 0.9146,
+      "accuracy_std": 0.0004,
+      "precision": 0.9155,
+      "recall": 0.9146,
+      "macro_f1_mean": 0.9143,
+      "macro_f1_std": 0.0004
+    },
+    {
+      "method": "Local only \u2013 Instagram",
+      "accuracy_mean": 0.9079,
+      "accuracy_std": 0.0002,
+      "precision": 0.9099,
+      "recall": 0.9079,
+      "macro_f1_mean": 0.9074,
+      "macro_f1_std": 0.0002
+    },
+    {
+      "method": "Local only \u2013 Reddit",
+      "accuracy_mean": 0.9042,
+      "accuracy_std": 0.0005,
+      "precision": 0.9044,
+      "recall": 0.9042,
+      "macro_f1_mean": 0.904,
+      "macro_f1_std": 0.0005
+    },
+    {
+      "method": "Local only \u2013 NewsPortal",
+      "accuracy_mean": 0.887,
+      "accuracy_std": 0.0044,
+      "precision": 0.887,
+      "recall": 0.887,
+      "macro_f1_mean": 0.8869,
+      "macro_f1_std": 0.0045
+    },
+    {
+      "method": "Local only \u2013 average of 5 platforms",
+      "accuracy_mean": 0.905,
+      "accuracy_std": 0.0009,
+      "precision": 0.906,
+      "recall": 0.905,
+      "macro_f1_mean": 0.9047,
+      "macro_f1_std": 0.0009
+    }
+  ],
+  "fedprox": [
+    {
+      "mu": 0.0,
+      "accuracy": 0.919,
+      "precision": 0.9199282240032446,
+      "recall": 0.9189976586140918,
+      "macro_f1": 0.9187170118516977
+    },
+    {
+      "mu": 0.0003,
+      "accuracy": 0.9187,
+      "precision": 0.9196140019758617,
+      "recall": 0.9186976286110915,
+      "macro_f1": 0.9184165846946352
+    },
+    {
+      "mu": 0.001,
+      "accuracy": 0.9186,
+      "precision": 0.9195091424841834,
+      "recall": 0.9185975586160895,
+      "macro_f1": 0.9183112224782516
+    },
+    {
+      "mu": 0.003,
+      "accuracy": 0.9154,
+      "precision": 0.916242139436962,
+      "recall": 0.9153973885690908,
+      "macro_f1": 0.9151099786675907
+    }
+  ],
+  "privacy_noise": [
+    {
+      "noise_std_per_weight": 0.0,
+      "noise_norm_per_round": 0.0,
+      "accuracy": 0.9187,
+      "precision": 0.919607544961465,
+      "recall": 0.9186976286110915,
+      "macro_f1": 0.9184149921694647
+    },
+    {
+      "noise_std_per_weight": 0.01,
+      "noise_norm_per_round": 8.86811704929519,
+      "accuracy": 0.919,
+      "precision": 0.9199892699407148,
+      "recall": 0.91899759862009,
+      "macro_f1": 0.9187092017012993
+    },
+    {
+      "noise_std_per_weight": 0.03,
+      "noise_norm_per_round": 26.604351147885566,
+      "accuracy": 0.9182,
+      "precision": 0.9190591446695766,
+      "recall": 0.9181975186120891,
+      "macro_f1": 0.9179040943634842
+    },
+    {
+      "noise_std_per_weight": 0.1,
+      "noise_norm_per_round": 88.68117049295189,
+      "accuracy": 0.9095,
+      "precision": 0.9100218211728516,
+      "recall": 0.9094973684531021,
+      "macro_f1": 0.9092340272530897
+    },
+    {
+      "noise_std_per_weight": 0.3,
+      "noise_norm_per_round": 266.04351147885563,
+      "accuracy": 0.8467,
+      "precision": 0.8465154821163509,
+      "recall": 0.8466964572882003,
+      "macro_f1": 0.8465563718139005
+    },
+    {
+      "noise_std_per_weight": 1.0,
+      "noise_norm_per_round": 886.8117049295189,
+      "accuracy": 0.7016,
+      "precision": 0.7016051956402204,
+      "recall": 0.7015956544664664,
+      "macro_f1": 0.7011786466979002
+    }
+  ],
+  "runtime_seconds": 1076
+}

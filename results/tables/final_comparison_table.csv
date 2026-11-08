@@ -1,0 +1,5 @@
+Method,Raw data shared?,Accuracy,Precision,Recall,Macro-F1
+Centralized,Yes – all comments,0.9225,0.9235,0.9225,0.9222
+"Federated (FedAvg, platform clients)",No,0.9194,0.9203,0.9194,0.9191
+"Federated (FedAvg, IID clients)",No,0.92,0.9209,0.92,0.9197
+Local only (average),No,0.905,0.906,0.905,0.9047
